@@ -6,19 +6,19 @@ A full-stack Instagram clone I built using React and Node.js. It has all the bas
 
 ### Features
 
-**1. User Authentication**
+1. User Authentication
 - Sign up and login
 - JWT tokens for authentication
 - Password hashing with bcrypt
 - Protected routes so you need to be logged in
 
-**2. User Profiles**
+2. User Profiles
 - View user profiles with follower/following counts
 - Discover page to find other users
 - Follow/unfollow users
 - See who follows who
 
-**3. Posts**
+3. Posts
 - Create posts with image URL and caption
 - Feed shows posts from people you follow (plus your own posts)
 - View individual posts
@@ -26,19 +26,19 @@ A full-stack Instagram clone I built using React and Node.js. It has all the bas
 - Like and unlike posts
 - Comment on posts
 
-**4. Follow System**
+4. Follow System
 - Follow other users
 - Unfollow users
 - See followers and following lists
 - Relationships are properly maintained on both sides
 
-**5. Feed**
+5. Feed
 - Shows posts from users you follow
 - Also includes your own posts
 - Sorted by newest first
 - Shows a message if your feed is empty
 
-**6. Notifications**
+6. Notifications
 - Get notified when:
   - Someone follows you
   - Someone likes your post
@@ -47,7 +47,7 @@ A full-stack Instagram clone I built using React and Node.js. It has all the bas
 - Can mark notifications as read
 - Full notifications page
 
-**7. UI Design**
+7. UI Design
 - Instagram-style login/signup page
 - Phone mockup on the left side of login page
 - Responsive design
@@ -137,7 +137,7 @@ Frontend runs on `http://localhost:5173` (or another port if that's taken)
 ```
 Instagram_clone/
 ├── backend/
-│   ├── middleware/auth.js          # JWT auth middleware
+│   ├── middleware/auth.js          
 │   ├── models/
 │   │   ├── User.js
 │   │   ├── Post.js
@@ -169,7 +169,7 @@ Instagram_clone/
 │   │   └── index.css
 │   └── package.json
 │
-└── Instagram_Clone_API.postman_collection.json
+└── insta_api_collection.jsonn.json
 ```
 
 ## API Endpoints
@@ -232,7 +232,7 @@ Tokens last 7 days.
 
 ## Testing
 
-I included a Postman collection file (`Instagram_Clone_API.postman_collection.json`) that you can import to test all the endpoints. Check POSTMAN_COLLECTION_README.md for how to use it.
+I included a Postman collection file (`insta_api_collection.json`) that you can import to test all the endpoints.
 
 ## Common Issues
 
@@ -295,4 +295,4 @@ Frontend doesn't need any env variables - it uses the proxy in vite.config.js.
 - All usernames are clickable and take you to profiles
 - The discover page lets you find and follow other users
 
-That's pretty much it! If you have questions or find bugs, feel free to open an issue.
+
