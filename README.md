@@ -169,7 +169,7 @@ Instagram_clone/
 │   │   └── index.css
 │   └── package.json
 │
-└── insta_api_collection.jsonn.json
+└── insta_api_collection.json
 ```
 
 ## API Endpoints
