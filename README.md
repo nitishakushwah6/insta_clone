@@ -101,7 +101,7 @@ Replace `your_mongodb_connection_string_here` with your actual MongoDB connectio
 mongodb+srv://username:password@cluster0.xxxxx.mongodb.net/insta?retryWrites=true&w=majority
 ```
 
-4. (Optional) Initialize the database:
+4. Initialize the database:
 ```bash
 npm run init-db
 ```
